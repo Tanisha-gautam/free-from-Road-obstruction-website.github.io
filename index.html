@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+    position: fixed;
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+    
+}
+</style>
+</head>
+<body>
+
+<h2>TO GET RID OF ROAD OBSTRUCTIONS</h2>
+<p>.</p>
+<p>Resize Enough getting tired up with traffic jams , potholes and construction sites.Here is the solution for it.
+Enter ypor arrival and departure location.after that we will provide you with the location of potholes,construction sites between your route.
+considering that you can determine the best possible route to reach your destination.</p>
+
+<header>
+  <h2>LOCALITIES2232f</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Anand Vihar Colony</a></li>
+      <li><a href="#">Babarpur</a></li>
+      <li><a href="#">Enclave</a></li>
+      <li><a href="#">Balbir Nagar</a></li>
+      <li><a href="#">Dayanand Vihar</a></li>
+      <li><a href="#">Dilshad colony</a></li>
+      
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>LIST OF ROADS</h1>
+    <p>A
+Akbar Road
+Aruna Asaf Ali Marg
+Ashram Chowk
+B
+Bahadur Shah Zafar Marg
+Barakhamba Road
+D
+Delhi Gurgaon Expressway
+DND Flyway
+Dr APJ Abdul Kalam Road
+E
+Eastern Peripheral Expressway (NE II)
+F
+Faridabad-Noida-Ghaziabad Expressway
+G
+Grand Trunk Road
+H
+Highways passing from Delhi
+I
+IIT Flyover
+Inner Ring Road, Delhi
+J
+Janpath
+K
+Kashmiri Gate, Delhi
+Western Peripheral Expressway
+L
+List of eponymous roads in Delhi
+Lodhi Road
+Lok Kalyan Marg
+M
+Mathura Road, Delhi
+O
+Outer Ring Road, Delhi
+P
+Palam Marg
+Prithviraj Road
+R
+Rajpath
+S
+Safdarjung Road
+Sansad Marg
+Shahjahan Road
+Shantipath
+Sri Aurobindo Marg
+T
+Tees January Road
+Tughlaq Road
+V
+Vandemataram Marg </p>
+  </article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>
