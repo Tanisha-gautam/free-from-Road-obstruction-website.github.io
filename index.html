@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+    position: fixed;
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+    
+}
+</style>
+</head>
+<body>
+
+<h2>TO GET RID OF ROAD OBSTRUCTIONS</h2>
+<p>.</p>
+<p>Resize Enough getting tired up with traffic jams , potholes and construction sites.Here is the solution for it.
+Enter ypor arrival and departure location.after that we will provide you with the location of potholes,construction sites between your route.
+considering that you can determine the best possible route to reach your destination.</p>
+
+<header>
+  <h2>LOCALITIES</h2>
+</header>
+    
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Anand Vihar Colony</a></li>
+      <li><a href="#">Babarpur</a></li>
+      <li><a href="#">Enclave</a></li>
+      <li><a href="#">Balbir Nagar</a></li>
+      <li><a href="#">Dayanand Vihar</a></li>
+      <li><a href="#">Dilshad colony</a></li>
+      
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>LIST OF ROADS</h1>
+    <p>A<br>
+Akbar Road<br>
+Aruna Asaf Ali Marg<br>
+Ashram Chowk<br>
+B<br>
+Bahadur Shah Zafar Marg
+Barakhamba Road<br>
+D<br>
+Delhi Gurgaon Expressway<br>
+DND Flyway<br>
+Dr APJ Abdul Kalam Road<br>
+E<br>
+Eastern Peripheral Expressway (NE II)<br>
+F<br>
+Faridabad-Noida-Ghaziabad Expressway<br>
+G<br>
+Grand Trunk Road<br>
+H<br>
+Highways passing from Delhi<br>
+I<br>
+IIT Flyover<br>
+Inner Ring Road, Delhi<br>
+J<br>
+Janpath<br>
+K<br>
+Kashmiri Gate, Delhi<br>
+Western Peripheral Expressway<br>
+L<br>
+List of eponymous roads in Delhi<br>
+Lodhi Road<br>
+Lok Kalyan Marg<br>
+M<br>
+Mathura Road, Delhi<br>
+O<br>
+Outer Ring Road, Delhi<br>
+P<br>
+Palam Marg<br>
+Prithviraj Road<br>
+R<br>
+Rajpath<br>
+S<br>
+Safdarjung Road<br>
+Sansad Marg<br>
+Shahjahan Road<br>
+Shantipath<br>
+Sri Aurobindo Marg<br>
+T<br>
+Tees January Road<br>
+Tughlaq Road<br>
+V<br>
+Vandemataram Marg </p>
+  </article>
+</section>
+    
+
+<script> 
+    function yo() {
+        x = document.getElementById("mylist1").value;
+        y = document.getElementById("mylist2").value;
+        
+        if(x==='Anand Vihar Colony' && y==='Babarpur') {
+            window.location.replace("jan.html");
+        }
+        if(x==='Anand Vihar Colony' && y==='Enclave') {
+            window.location.replace("jan1.html");
+        }
+        if(x==='Anand Vihar Colony' && y==='Balbir Nagar') {
+            window.location.replace("jan2.html");
+        }
+        if(x==='Anand Vihar Colony' && y==='Dayanand Vihar') {
+            window.location.replace("jan3.html");
+        }
+        if(x==='Anand Vihar Colony' && y==='Dilshad colony') {
+            window.location.replace("jan4.html");
+        }
+        
+    }
+</script>
+    </body>
+</html>
